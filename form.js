@@ -4,9 +4,9 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEye,faEyeSlash } from "@fortawesome/free-solid-svg-icons";
 const Eye = <FontAwesomeIcon className="icon" icon={faEye} />;
 const EyeSlash = <FontAwesomeIcon className="icon" icon ={faEyeSlash}/>;
-const Register = () => {
 
-
+const Form = () => {
+    
 const [formdata,setformdata]=useState({
 
 email:'',
@@ -90,4 +90,4 @@ pass.current.type = show ? 'password':'text';
     )
 }
 
-export default Register;
+export default Form;
